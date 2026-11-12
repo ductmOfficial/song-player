@@ -1,6 +1,7 @@
 import { PageAccent } from "@/features/accent/accent";
 import { type DiscoverFilter, isMood, isTime, moods } from "@/features/discover/moods";
 import { TrendingFilters } from "@/features/discover/trending-filters";
+import { RecentlyPlayed } from "@/features/history/recently-played";
 import { CollectionActions } from "@/features/tracks/collection-actions";
 import { TrackGrid } from "@/features/tracks/track-grid";
 import { TrackList } from "@/features/tracks/track-list";
@@ -65,6 +66,8 @@ export default async function DiscoverPage({ searchParams }: Props) {
           </figure>
         )}
       </section>
+
+      <RecentlyPlayed />
 
       <section aria-labelledby="trending" className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
