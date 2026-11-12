@@ -1,0 +1,90 @@
+/*
+ * Sóng — Tidal Editorial design tokens.
+ * Components use ONLY semantic variables (never raw hex), so a new theme is
+ * a new [data-theme] block plus one entry in tokens/themes.ts.
+ */
+
+/* Registered so the accent can animate smoothly when the artwork changes. */
+@property --accent-dynamic {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #e8a15a;
+}
+@property --accent-mix {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 0%;
+}
+
+:root {
+  --s-font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --s-font-sans: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius-art: 4px;
+  --radius-control: 10px;
+  --radius-pill: 999px;
+
+  /* Motion (mirrors tokens/motion.ts) */
+  --duration-fast: 140ms;
+  --duration-base: 220ms;
+  --duration-slow: 360ms;
+  --duration-slower: 600ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.3, 0, 0, 1);
+  --ease-exit: cubic-bezier(0.3, 0, 1, 1);
+}
+
+/*
+ * The accent: the theme's own accent, blended toward the artwork color while a
+ * track plays. Set --accent-dynamic (artwork color) and --accent-mix (0%–100%)
+ * on <html>; both are registered, so changes animate.
+ */
+[data-theme] {
+  --s-accent: color-mix(in oklab, var(--accent-dynamic) var(--accent-mix), var(--s-accent-base));
+  transition:
+    --accent-dynamic var(--duration-slower) var(--ease-standard),
+    --accent-mix var(--duration-slower) var(--ease-standard);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --s-bg: #121110;
+  --s-surface: #1a1816;
+  --s-surface-raised: #24211e;
+  --s-border: #2e2a26;
+  --s-text: #f3eee7;
+  --s-text-muted: #a8a097;
+  --s-accent-base: #e8a15a;
+  --s-on-accent: #121110;
+  --glow: 22%;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --s-bg: #f6f3ee;
+  --s-surface: #ffffff;
+  --s-surface-raised: #ece7df;
+  --s-border: #dcd5ca;
+  --s-text: #1c1916;
+  --s-text-muted: #645c53;
+  --s-accent-base: #a35a1c;
+  --s-on-accent: #ffffff;
+  --glow: 14%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Theme switch uses a circular reveal (see useThemeTransition); disable the default cross-fade. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
