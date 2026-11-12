@@ -18,6 +18,7 @@
     "@song/music-sources": "workspace:*",
     "@song/player-core": "workspace:*",
     "@song/ui": "workspace:*",
+    "@tanstack/react-query": "^5.107.1",
     "motion": "^14.12.0",
     "next": "16.4.6",
     "next-intl": "^4.15.0",
