@@ -3,3 +3,18 @@ packages:
   - "packages/*"
 
 engineStrict: true
+
+minimumReleaseAgeExclude:
+  - framer-motion@14.13.0
+  - icu-minify@4.15.1
+  - motion-dom@14.13.0
+  - motion@14.13.0
+  - next-intl-swc-plugin-extractor@4.15.1
+  - next-intl@4.15.1
+  - use-intl@4.15.1
+
+# pnpm blocks dependency build scripts unless listed here. next-intl pulls in @swc/core and
+# @parcel/watcher for its message extractor; both ship prebuilt platform packages.
+allowBuilds:
+  "@parcel/watcher": false
+  "@swc/core": false
