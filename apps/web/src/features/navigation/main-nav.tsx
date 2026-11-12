@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 const items = [
   { href: "/", key: "discover" },
   { href: "/search", key: "search" },
+  { href: "/history", key: "history" },
 ] as const;
 
 export function MainNav() {

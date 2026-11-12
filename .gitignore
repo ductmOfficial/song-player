@@ -20,3 +20,8 @@ coverage/
 
 # Local-only Vietnamese progress notes
 PROGRESS.vi.md
+
+# Service worker generated at build time
+apps/web/public/sw.js
+apps/web/public/sw.js.map
+apps/web/public/swe-worker-*.js

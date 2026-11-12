@@ -5,16 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
-    "typecheck": "next typegen && tsc --noEmit",
+    "typecheck": "SERWIST_SUPPRESS_TURBOPACK_WARNING=1 next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",
     "@fontsource/be-vietnam-pro": "^5.3.0",
+    "@serwist/next": "^9.5.13",
     "@song/music-sources": "workspace:*",
     "@song/player-core": "workspace:*",
     "@song/ui": "workspace:*",
@@ -37,6 +38,7 @@
     "@vitest/coverage-v8": "^5.0.5",
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
+    "serwist": "^9.5.13",
     "tailwindcss": "^4.3.5",
     "typescript": "~6.0.3",
     "vitest": "^5.0.5"
