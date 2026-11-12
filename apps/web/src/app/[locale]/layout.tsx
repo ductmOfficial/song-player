@@ -50,7 +50,7 @@ export default async function LocaleLayout({ children }: { children: ReactNode }
           {t("skipToContent")}
         </a>
         <NextIntlClientProvider>
-          <AppProviders>
+          <AppProviders audiusAppName={process.env.AUDIUS_APP_NAME ?? "song-portfolio"}>
             <SiteHeader />
             {children}
           </AppProviders>
