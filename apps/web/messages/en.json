@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Sóng — ride the same wave",
+    "description": "Listen to independent music from Audius, alone or with friends."
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "home": "Sóng, go to home"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "discover": "Discover",
+    "search": "Search",
+    "history": "History"
+  },
+  "theme": {
+    "label": "Theme",
+    "system": "System",
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "locale": {
+    "label": "Language",
+    "vi": "Tiếng Việt",
+    "en": "English"
+  },
+  "discover": {
+    "issue": "Issue 02, this week's selection",
+    "headline": "Independent music, <em>heard in full</em>",
+    "lede": "The most-played tracks on Audius of all time, from bedroom producers to Skrillex and Zedd. Full tracks, free, artists credited.",
+    "playCollection": "Play collection",
+    "artworkCaption": "Cover: {title} by {artist}",
+    "trendingTitle": "Trending on Audius",
+    "moods": {
+      "label": "By mood",
+      "all": "All",
+      "focus": "Focus",
+      "night": "Late night",
+      "rain": "Rainy day",
+      "energy": "Energy",
+      "chill": "Chill",
+      "road": "On the road"
+    },
+    "emptyTitle": "Couldn't load trending tracks",
+    "emptyBody": "Audius didn't respond. Check your connection, then reload the page.",
+    "attribution": "Music provided by Audius. All rights belong to the artists.",
+    "filtersHint": "Pick a time window and a mood; moods filter by their closest genre.",
+    "times": {
+      "label": "Time window",
+      "week": "This week",
+      "month": "This month",
+      "allTime": "All time"
+    },
+    "chartTitle": "Global chart",
+    "chartNote": "What's most played on Deezer right now. Deezer only allows 30-second previews; select a title to hear the full track on Deezer.",
+    "chartAttribution": "Data and previews from Deezer. All rights belong to the artists and labels."
+  },
+  "player": {
+    "region": "Music player",
+    "nowPlaying": "Now playing: {title}, {artist}",
+    "addedToQueue": "Added {count, plural, one {# track} other {# tracks}} to the queue",
+    "playingNext": "{count, plural, one {# track} other {# tracks}} will play next",
+    "seek": "Playback position",
+    "timeOf": "{current} of {total}",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "volume": "Volume",
+    "play": "Play",
+    "pause": "Pause",
+    "previous": "Previous track",
+    "next": "Next track",
+    "shuffle": "Shuffle",
+    "repeatOff": "Repeat: off",
+    "repeatAll": "Repeat: whole queue",
+    "repeatOne": "Repeat: one track",
+    "openNowPlaying": "Open Now playing",
+    "closeNowPlaying": "Minimise Now playing",
+    "nowPlayingTitle": "Now playing",
+    "error": "This track couldn't play. Press play to retry.",
+    "shortcuts": "Keyboard shortcuts",
+    "queue": "Queue",
+    "queueWithCount": "Queue, {count, plural, =0 {nothing up next} one {# up next} other {# up next}}",
+    "clearUpcoming": "Clear up next",
+    "closeQueue": "Close queue",
+    "upNext": "Up next",
+    "queueEmpty": "Nothing else queued.",
+    "reorderHint": "Drag the handle to reorder, or press Alt + ↑/↓ on a focused track.",
+    "dragToReorder": "Drag to move {title}",
+    "removeFromQueue": "Remove {title} from the queue",
+    "openOnAudius": "Open on Audius",
+    "openOn": "Open on {source}"
+  },
+  "shortcuts": {
+    "title": "Keyboard shortcuts",
+    "close": "Close",
+    "space": "Space",
+    "toggle": "Play / pause",
+    "seekBack": "Back 5 seconds",
+    "seekForward": "Forward 5 seconds",
+    "prev": "Previous track",
+    "next": "Next track",
+    "volumeUp": "Volume up",
+    "volumeDown": "Volume down",
+    "mute": "Mute / unmute",
+    "shuffle": "Shuffle",
+    "repeat": "Change repeat mode",
+    "queue": "Open / close queue",
+    "nowPlaying": "Open / close Now playing",
+    "search": "Search",
+    "help": "Show shortcuts"
+  },
+  "tracks": {
+    "play": "Play",
+    "pause": "Pause",
+    "playTrack": "Play {title}",
+    "pauseTrack": "Pause {title}",
+    "playNext": "Play {title} next",
+    "addToQueue": "Add {title} to the queue",
+    "addAllToQueue": "Add to queue",
+    "unavailable": "Not playable on Sóng",
+    "unavailableFor": "{title} isn't playable on Sóng",
+    "plays": "{count, plural, one {# play} other {# plays}}",
+    "playsUnit": "plays",
+    "preview": "{seconds}s preview",
+    "opensOn": "opens on {source}"
+  },
+  "track": {
+    "eyebrow": "Track",
+    "verified": "Verified artist",
+    "stats": "{plays} plays · {likes} likes",
+    "gated": "The artist restricts streaming of this track on Audius, so Sóng can't play it.",
+    "details": "Details",
+    "duration": "Length",
+    "genre": "Genre",
+    "mood": "Mood",
+    "bpm": "Tempo (BPM)",
+    "key": "Key",
+    "released": "Released",
+    "tags": "Tags",
+    "description": "About",
+    "openOnAudius": "Open on Audius",
+    "moreBy": "More from {artist}",
+    "attribution": "This track belongs to {artist}, streamed via Audius."
+  },
+  "artist": {
+    "eyebrow": "Artist",
+    "verified": "Verified",
+    "followers": "{count, plural, one {{formatted} follower} other {{formatted} followers}}",
+    "tracks": "{count, plural, one {{formatted} track} other {{formatted} tracks}}",
+    "playPopular": "Play popular",
+    "openOnAudius": "View on Audius",
+    "popular": "Popular",
+    "recent": "Latest releases",
+    "about": "About",
+    "noTracks": "This artist hasn't released any tracks yet.",
+    "attribution": "Music provided by Audius. All rights belong to the artists."
+  },
+  "search": {
+    "title": "Search",
+    "titleWithQuery": "Search “{q}”",
+    "label": "Search tracks or artists",
+    "placeholder": "Tracks, artists, genres…",
+    "tryThese": "Try one of these:",
+    "resultCount": "{tracks, plural, one {# track} other {# tracks}} and {artists, plural, one {# artist} other {# artists}}",
+    "artists": "Artists",
+    "tracks": "Tracks",
+    "noResultsTitle": "No results for “{q}”",
+    "noResultsBody": "Try a shorter query, or check the spelling.",
+    "errorTitle": "Search didn't work",
+    "errorBody": "Audius didn't respond. Try again in a moment.",
+    "retry": "Try again"
+  },
+  "history": {
+    "title": "Listening history",
+    "listenAgain": "Listen again",
+    "seeAll": "See all",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "localNote": "History is kept in this browser. Once you sign in, it syncs to your account.",
+    "clear": "Clear history",
+    "emptyTitle": "Nothing played yet",
+    "emptyBody": "Any track you listen to for more than 30 seconds shows up here.",
+    "discover": "Go discover"
+  },
+  "notFound": {
+    "title": "This page isn't here",
+    "body": "The link may be out of date, or the track or artist was removed from Audius.",
+    "home": "Back to Discover"
+  },
+  "offline": {
+    "title": "You're offline",
+    "body": "Sóng needs a connection to stream music. Pages you've opened before still work.",
+    "retry": "Try again"
+  },
+  "errorPage": {
+    "title": "Something went wrong",
+    "body": "Sóng couldn't load this page, usually because Audius is slow or the connection dropped. Your music keeps playing.",
+    "retry": "Try again"
+  }
+}

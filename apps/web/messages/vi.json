@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Sóng — nghe cùng một con sóng",
+    "description": "Nghe nhạc độc lập từ Audius, một mình hoặc cùng bạn bè."
+  },
+  "a11y": {
+    "skipToContent": "Bỏ qua tới nội dung chính",
+    "home": "Sóng, về trang chủ"
+  },
+  "nav": {
+    "label": "Điều hướng chính",
+    "discover": "Khám phá",
+    "search": "Tìm kiếm",
+    "history": "Lịch sử"
+  },
+  "theme": {
+    "label": "Giao diện",
+    "system": "Theo hệ thống",
+    "dark": "Tối",
+    "light": "Sáng"
+  },
+  "locale": {
+    "label": "Ngôn ngữ",
+    "vi": "Tiếng Việt",
+    "en": "English"
+  },
+  "discover": {
+    "issue": "Số 02, tuyển chọn tuần này",
+    "headline": "Âm nhạc độc lập, <em>nghe trọn vẹn</em>",
+    "lede": "Những bài được nghe nhiều nhất trên Audius mọi thời đại, từ phòng thu tại gia đến Skrillex hay Zedd. Phát trọn bài, miễn phí, nghệ sĩ được ghi công.",
+    "playCollection": "Phát tuyển tập",
+    "artworkCaption": "Ảnh bìa: {title} của {artist}",
+    "trendingTitle": "Đang nổi trên Audius",
+    "moods": {
+      "label": "Theo tâm trạng",
+      "all": "Tất cả",
+      "focus": "Tập trung",
+      "night": "Đêm muộn",
+      "rain": "Ngày mưa",
+      "energy": "Năng lượng",
+      "chill": "Thư giãn",
+      "road": "Trên đường"
+    },
+    "emptyTitle": "Chưa tải được danh sách thịnh hành",
+    "emptyBody": "Audius không phản hồi. Kiểm tra kết nối mạng rồi tải lại trang.",
+    "attribution": "Nhạc được cung cấp bởi Audius. Mọi bản quyền thuộc về nghệ sĩ.",
+    "filtersHint": "Chọn khoảng thời gian và tâm trạng; tâm trạng được lọc theo thể loại gần nhất.",
+    "times": {
+      "label": "Khoảng thời gian",
+      "week": "Tuần này",
+      "month": "Tháng này",
+      "allTime": "Mọi thời đại"
+    },
+    "chartTitle": "Bảng xếp hạng thế giới",
+    "chartNote": "Những bài đang được nghe nhiều nhất trên Deezer. Deezer chỉ cho phép nghe thử 30 giây; bấm vào tên bài để nghe trọn trên Deezer.",
+    "chartAttribution": "Dữ liệu và bản nghe thử từ Deezer. Mọi bản quyền thuộc về nghệ sĩ và hãng đĩa."
+  },
+  "player": {
+    "region": "Trình phát nhạc",
+    "nowPlaying": "Đang phát: {title}, {artist}",
+    "addedToQueue": "Đã thêm {count, plural, other {# bài}} vào hàng đợi",
+    "playingNext": "{count, plural, other {# bài}} sẽ phát tiếp theo",
+    "seek": "Vị trí phát",
+    "timeOf": "{current} trên {total}",
+    "mute": "Tắt tiếng",
+    "unmute": "Bật tiếng",
+    "volume": "Âm lượng",
+    "play": "Phát",
+    "pause": "Tạm dừng",
+    "previous": "Bài trước",
+    "next": "Bài tiếp theo",
+    "shuffle": "Trộn bài",
+    "repeatOff": "Lặp lại: tắt",
+    "repeatAll": "Lặp lại: cả hàng đợi",
+    "repeatOne": "Lặp lại: một bài",
+    "openNowPlaying": "Mở màn hình Đang phát",
+    "closeNowPlaying": "Thu nhỏ màn hình Đang phát",
+    "nowPlayingTitle": "Đang phát",
+    "error": "Không phát được bài này. Bấm phát để thử lại.",
+    "shortcuts": "Phím tắt",
+    "queue": "Hàng đợi",
+    "queueWithCount": "Hàng đợi, {count, plural, =0 {không còn bài nào} other {# bài tiếp theo}}",
+    "clearUpcoming": "Xoá các bài tiếp theo",
+    "closeQueue": "Đóng hàng đợi",
+    "upNext": "Tiếp theo",
+    "queueEmpty": "Không còn bài nào phía sau.",
+    "reorderHint": "Kéo tay nắm để đổi thứ tự, hoặc dùng Alt + ↑/↓ khi đang chọn một bài.",
+    "dragToReorder": "Kéo để đổi vị trí của {title}",
+    "removeFromQueue": "Bỏ {title} khỏi hàng đợi",
+    "openOnAudius": "Mở trên Audius",
+    "openOn": "Mở trên {source}"
+  },
+  "shortcuts": {
+    "title": "Phím tắt",
+    "close": "Đóng",
+    "space": "Dấu cách",
+    "toggle": "Phát / tạm dừng",
+    "seekBack": "Lùi 5 giây",
+    "seekForward": "Tới 5 giây",
+    "prev": "Bài trước",
+    "next": "Bài tiếp theo",
+    "volumeUp": "Tăng âm lượng",
+    "volumeDown": "Giảm âm lượng",
+    "mute": "Tắt / bật tiếng",
+    "shuffle": "Trộn bài",
+    "repeat": "Đổi chế độ lặp",
+    "queue": "Mở / đóng hàng đợi",
+    "nowPlaying": "Mở / đóng màn hình Đang phát",
+    "search": "Tìm kiếm",
+    "help": "Hiện bảng phím tắt"
+  },
+  "tracks": {
+    "play": "Phát",
+    "pause": "Tạm dừng",
+    "playTrack": "Phát {title}",
+    "pauseTrack": "Tạm dừng {title}",
+    "playNext": "Phát {title} tiếp theo",
+    "addToQueue": "Thêm {title} vào hàng đợi",
+    "addAllToQueue": "Thêm vào hàng đợi",
+    "unavailable": "Không nghe được trên Sóng",
+    "unavailableFor": "{title} không nghe được trên Sóng",
+    "plays": "{count, plural, other {# lượt nghe}}",
+    "playsUnit": "lượt nghe",
+    "preview": "Nghe thử {seconds}s",
+    "opensOn": "mở trên {source}"
+  },
+  "track": {
+    "eyebrow": "Bài hát",
+    "verified": "Nghệ sĩ đã xác minh",
+    "stats": "{plays} lượt nghe · {likes} lượt thích",
+    "gated": "Nghệ sĩ giới hạn quyền nghe bài này trên Audius, nên Sóng không phát được.",
+    "details": "Thông tin",
+    "duration": "Thời lượng",
+    "genre": "Thể loại",
+    "mood": "Tâm trạng",
+    "bpm": "Nhịp (BPM)",
+    "key": "Giọng",
+    "released": "Phát hành",
+    "tags": "Thẻ",
+    "description": "Giới thiệu",
+    "openOnAudius": "Mở trên Audius",
+    "moreBy": "Thêm từ {artist}",
+    "attribution": "Bài hát thuộc về {artist}, phát qua Audius."
+  },
+  "artist": {
+    "eyebrow": "Nghệ sĩ",
+    "verified": "Đã xác minh",
+    "followers": "{formatted} người theo dõi",
+    "tracks": "{formatted} bài hát",
+    "playPopular": "Phát bài nổi bật",
+    "openOnAudius": "Xem trên Audius",
+    "popular": "Nổi bật",
+    "recent": "Mới phát hành",
+    "about": "Giới thiệu",
+    "noTracks": "Nghệ sĩ chưa có bài hát nào.",
+    "attribution": "Nhạc được cung cấp bởi Audius. Mọi bản quyền thuộc về nghệ sĩ."
+  },
+  "search": {
+    "title": "Tìm kiếm",
+    "titleWithQuery": "Tìm “{q}”",
+    "label": "Tìm bài hát hoặc nghệ sĩ",
+    "placeholder": "Bài hát, nghệ sĩ, thể loại…",
+    "tryThese": "Gợi ý để bắt đầu:",
+    "resultCount": "{tracks, plural, other {# bài hát}} và {artists, plural, other {# nghệ sĩ}}",
+    "artists": "Nghệ sĩ",
+    "tracks": "Bài hát",
+    "noResultsTitle": "Không tìm thấy kết quả cho “{q}”",
+    "noResultsBody": "Thử từ khoá ngắn hơn, hoặc kiểm tra lại chính tả.",
+    "errorTitle": "Chưa tìm được",
+    "errorBody": "Audius không phản hồi. Thử lại sau giây lát.",
+    "retry": "Thử lại"
+  },
+  "history": {
+    "title": "Lịch sử nghe",
+    "listenAgain": "Nghe lại",
+    "seeAll": "Xem tất cả",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "localNote": "Lịch sử được lưu trên trình duyệt này. Khi đăng nhập, nó sẽ được đồng bộ với tài khoản.",
+    "clear": "Xoá lịch sử",
+    "emptyTitle": "Bạn chưa nghe bài nào",
+    "emptyBody": "Mỗi bài nghe quá 30 giây sẽ xuất hiện ở đây.",
+    "discover": "Đi khám phá"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang này",
+    "body": "Có thể đường dẫn đã cũ, hoặc bài hát và nghệ sĩ đã bị gỡ khỏi Audius.",
+    "home": "Về trang Khám phá"
+  },
+  "offline": {
+    "title": "Bạn đang ngoại tuyến",
+    "body": "Sóng cần mạng để phát nhạc. Các trang đã mở trước đó vẫn xem được.",
+    "retry": "Thử lại"
+  },
+  "errorPage": {
+    "title": "Có gì đó chưa ổn",
+    "body": "Sóng chưa tải được trang này, thường do Audius phản hồi chậm hoặc mất kết nối. Nhạc đang phát vẫn tiếp tục.",
+    "retry": "Thử lại"
+  }
+}
