@@ -1,4 +1,5 @@
 import { LocaleSwitcher } from "@/features/locale/locale-switcher";
+import { MainNav } from "@/features/navigation/main-nav";
 import { ThemeSwitcher } from "@/features/theme/theme-switcher";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
@@ -22,6 +23,10 @@ export async function SiteHeader() {
         </svg>
         <span className="font-display text-3xl italic tracking-tight">Sóng</span>
       </Link>
+      {/* Own row on phones, inline after the logo from sm up */}
+      <div className="order-last w-full sm:order-none sm:mr-auto sm:w-auto">
+        <MainNav />
+      </div>
       <div className="flex items-center gap-3">
         <LocaleSwitcher />
         <ThemeSwitcher />
