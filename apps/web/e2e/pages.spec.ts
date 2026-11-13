@@ -41,6 +41,19 @@ test("unknown track shows the localized not-found page", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "Không tìm thấy trang này" })).toBeVisible();
 });
 
+test("unknown paths get the localized not-found page with the app's header", async ({ page }) => {
+  const vi = await page.goto("/xx/yy");
+  expect(vi?.status()).toBe(404);
+  await expect(page.getByRole("heading", { name: "Không tìm thấy trang này" })).toBeVisible();
+  await expect(page.getByRole("link", { name: "Về trang Khám phá" })).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "Điều hướng chính" })).toBeVisible();
+
+  const en = await page.goto("/en/xx");
+  expect(en?.status()).toBe(404);
+  await expect(page.getByRole("heading", { name: "This page isn't here" })).toBeVisible();
+  await expectAccessible(page);
+});
+
 test("history records listens and can be cleared", async ({ page }) => {
   await page.goto("/history");
   await expect(page.getByText("Bạn chưa nghe bài nào")).toBeVisible();
