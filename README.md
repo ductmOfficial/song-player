@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/ductmOfficial/song-player/actions/workflows/ci.yml/badge.svg)](https://github.com/ductmOfficial/song-player/actions/workflows/ci.yml)
 
-_Ride the same wave._ An independent-music player built on the Audius API (full tracks) with the Deezer chart (30-second previews), and an artwork-driven "Tidal Editorial" interface in Vietnamese and English.
+_Ride the same wave._ An independent-music player built on the Audius API (full tracks) with the Deezer chart (30-second previews), and an artwork-driven "Tidal Editorial" interface in Vietnamese and English. Live at **https://song-player-beta.vercel.app**.
 
 ## What's inside
 
@@ -77,7 +77,7 @@ The end-to-end tests start the app on port 3400. The first run needs a browser: 
 - **Keyboard first**: global shortcuts (Space/K, ←/→, Shift+←/→, M, S, R, Q, F, /, ?) driven by one table that also renders the help dialog.
 - **Search as you type**: server-rendered for shareable `?q=` URLs, then TanStack Query with debouncing and cancellation ([ADR 0005](docs/adr/0005-data-fetching.md)).
 - **Two sources, one model**: Audius for full-length independent music (with week, month and all-time trending), Deezer's global chart as 30-second previews, side by side in the same queue ([ADR 0008](docs/adr/0008-multiple-sources-and-previews.md)).
-- **Tested where it matters**: 65 unit tests and 19 end-to-end tests with axe accessibility checks in both themes ([ADR 0006](docs/adr/0006-testing-and-mocks.md)).
+- **Tested where it matters**: 65 unit tests and 20 end-to-end tests with axe accessibility checks in both themes ([ADR 0006](docs/adr/0006-testing-and-mocks.md)).
 - **PWA and local-first history**: installable, offline fallback, no audio caching; history behind a repository interface ready for account sync ([ADR 0007](docs/adr/0007-pwa-and-local-history.md)).
 - **Themes**: dark and light today; a new theme is one CSS block and one registry entry ([ADR 0002](docs/adr/0002-theming.md)).
 - **Artwork accent**: the UI re-tints from the playing track's cover, adjusted to 4.5:1 contrast against the theme, animated with `@property`.
@@ -94,6 +94,10 @@ The end-to-end tests start the app on port 3400. The first run needs a browser: 
 - [ ] Phase 4: stats dashboard, Web Vitals dashboard
 
 Steps, decisions and issues are logged in [PROGRESS.md](PROGRESS.md).
+
+## Deployment
+
+Vercel builds the app from `main` with the project's root directory set to `apps/web` and the build command `cd ../.. && pnpm turbo run build --filter=web`, so the workspace packages are built first. `AUDIUS_APP_NAME` is set in the project's environment variables. Pull requests get preview deployments.
 
 ## Contributing workflow
 
