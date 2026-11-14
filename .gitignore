@@ -29,3 +29,6 @@ apps/web/public/swe-worker-*.js
 # Playwright
 playwright-report/
 test-results/
+
+# Local-only Vietnamese README
+README.vi.md
