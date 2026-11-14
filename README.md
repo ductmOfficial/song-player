@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/ductmOfficial/song-player/actions/workflows/ci.yml/badge.svg)](https://github.com/ductmOfficial/song-player/actions/workflows/ci.yml)
 
-_Ride the same wave._ An independent-music player built on the Audius API (full tracks) with the Deezer chart (30-second previews), and an artwork-driven "Tidal Editorial" interface in Vietnamese and English. Live at **https://song-player-beta.vercel.app**.
+_Ride the same wave._ An independent-music player built on the Audius API (full tracks) with the Deezer chart (30-second previews), and an artwork-driven "Tidal Editorial" interface in Vietnamese and English. Live at **https://song-tmd.vercel.app**.
 
 ## What's inside
 
