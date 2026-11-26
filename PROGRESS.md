@@ -1,6 +1,6 @@
 # Progress
 
-> Last updated: 2026-11-13
+> Last updated: 2026-11-26
 >
 > Legend: ✅ done · 🔄 in progress · ⬜ not started
 
@@ -19,21 +19,23 @@ Sóng is an independent-music player on the Audius and Deezer APIs. This repo wa
 
 ## Steps
 
-| #   | Step                                                                      | Branch               | Status |
-| --- | ------------------------------------------------------------------------- | -------------------- | ------ |
-| 1   | Repository from the `ductran-starter` template                            | `main`               | ✅     |
-| 2   | Rename to `song-player`, drop the sample package and the database         | `chore/setup`        | ✅     |
-| 3   | `@song/ui`: tokens, themes, motion tokens, `Button`                       | `feat/ui`            | ✅     |
-| 4   | `@song/music-sources`: Audius and Deezer adapters with Zod                | `feat/music-sources` | ✅     |
-| 5   | `@song/player-core`: playback machine, queue, media store, `createPlayer` | `feat/player-core`   | ✅     |
-| 6   | App shell: locale routing, themes, fonts, header                          | `feat/web`           | ✅     |
-| 7   | Player bar, Now playing, queue, shortcuts, accent; track and artist pages | `feat/player`        | ✅     |
-| 8   | Discover hero and filters, Deezer chart, search                           | `feat/discover`      | ✅     |
-| 9   | History page, "Listen again" and PWA                                      | `feat/pwa-history`   | ✅     |
-| 10  | MSW fixtures, Playwright and axe, `Browser` job in CI                     | `test/e2e`           | ✅     |
-| 11  | README, architecture decision records and this progress log               | `docs/readme`        | ✅     |
-| 12  | Localized 404 for paths that match no page                                | `fix/not-found`      | ✅     |
-| 13  | Deployment on Vercel, Node 24 declared in the app package                 | `docs/deploy`        | ✅     |
+| #   | Step                                                                      | Branch                  | Status |
+| --- | ------------------------------------------------------------------------- | ----------------------- | ------ |
+| 1   | Repository from the `ductran-starter` template                            | `main`                  | ✅     |
+| 2   | Rename to `song-player`, drop the sample package and the database         | `chore/setup`           | ✅     |
+| 3   | `@song/ui`: tokens, themes, motion tokens, `Button`                       | `feat/ui`               | ✅     |
+| 4   | `@song/music-sources`: Audius and Deezer adapters with Zod                | `feat/music-sources`    | ✅     |
+| 5   | `@song/player-core`: playback machine, queue, media store, `createPlayer` | `feat/player-core`      | ✅     |
+| 6   | App shell: locale routing, themes, fonts, header                          | `feat/web`              | ✅     |
+| 7   | Player bar, Now playing, queue, shortcuts, accent; track and artist pages | `feat/player`           | ✅     |
+| 8   | Discover hero and filters, Deezer chart, search                           | `feat/discover`         | ✅     |
+| 9   | History page, "Listen again" and PWA                                      | `feat/pwa-history`      | ✅     |
+| 10  | MSW fixtures, Playwright and axe, `Browser` job in CI                     | `test/e2e`              | ✅     |
+| 11  | README, architecture decision records and this progress log               | `docs/readme`           | ✅     |
+| 12  | Localized 404 for paths that match no page                                | `fix/not-found`         | ✅     |
+| 13  | Deployment on Vercel, Node 24 declared in the app package                 | `docs/deploy`           | ✅     |
+| 14  | Full setup, run, test and troubleshooting guide in the README             | `docs/setup-guide`      | ✅     |
+| 15  | README and links point to song-tmd.vercel.app                             | `docs/song-tmd-address` | ✅     |
 
 Step 1 is the template's initial commit; every later step is a pull request with green checks, merged with rebase. From step 10 the ruleset also requires `Browser`.
 
